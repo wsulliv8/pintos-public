@@ -24,7 +24,7 @@ Robust File System: An extensible file system with a buffer cache, indexed files
 Concurrency & Synchronization: Rock-solid synchronization primitives (semaphores, locks, condition variables) preventing race conditions across the kernel.
 
 🏗️ Architecture
-Plaintext
+```Plaintext
 ┌────────────────────────────────────────────────────────┐
 │                   User Programs                        │
 │   (ls, cat, echo, custom test binaries, shell)         │
@@ -52,6 +52,7 @@ Plaintext
 │     (CPU, Memory, Registers, Interrupt Controller,     │
 │                 IDE Disk, Keyboard)                    │
 └────────────────────────────────────────────────────────┘
+```
 The system is separated by a strict boundary between user space (Ring 3) and kernel space (Ring 0). User programs must trap into the kernel via system calls to request resources, and the kernel meticulously validates all user pointers to prevent malicious or accidental system crashes.
 
 📋 Core Components
