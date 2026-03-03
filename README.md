@@ -7,7 +7,7 @@ Contributors
 This project was implemented by:
 
 - **Will Sullivan** ([@wsulliv8](https://github.com/wsulliv8))
-- - **Dylan Pina** ([@DylanPina](https://github.com/DylanPina))
+- **Dylan Pina** ([@DylanPina](https://github.com/DylanPina))
 
 🎯 Overview
 Pintos is a simple but complete operating system framework for the 80x86 architecture. The base code provides minimal functionality, and this project fully implements the core subsystems required of a modern operating system. The system guarantees process isolation, efficient memory management, and thread-safe file operations in a highly concurrent environment.
