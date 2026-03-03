@@ -1,4 +1,4 @@
-Pintos - Operating System Kernel Development
+# Pintos - Operating System Kernel Development
 A production-grade implementation of core operating system subsystems for the 80x86 architecture. This project involves building out the threading, user program execution, virtual memory, and file system layers of the Stanford Pintos instructional operating system.
 
 Note: This repository is private to maintain academic integrity for the UT Austin MSCS Advanced Operating Systems course. This README serves as a portfolio showcase of the architecture and implementation details.
